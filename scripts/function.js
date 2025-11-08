@@ -84,4 +84,3 @@ function convertToSeconds(){
     let secs = mins * 60; //. calculates the secs
     document.getElementById("result").innerHTML += `<li>${mins} minutes are ${secs}s</li>`; // display/print
 }
-
