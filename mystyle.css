@@ -1,10 +1,27 @@
 body{
-    font-family: arial;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 30px;
 }
-div{
+
+button{
+    margin: 10px;
+    padding: 10px;
+}
+
+table{
+    margin: 20px auto;
+    width: 50%;
+}
+
+th, td{
+    padding: 8px;
+}
+/*div{
     height: 100px;
     padding: 20px;
-}
+}*/
+
 .cold{
     color:blue;
     background-image:url(https://www.shutterstock.com/image-vector/natural-winter-christmas-background-sky-600nw-1199693014.jpg);
@@ -14,4 +31,18 @@ div{
 .hot{
     color:red;
     background-image:url(https://media.istockphoto.com/id/1257088461/photo/glowing-sun-on-orange-sky.jpg?s=612x612&w=0&k=20&c=PIPUiJTgQsm0ER7KVKK2vUMkaqu8v47I8wQvaR5bzt0=);
+}
+#thermo{
+    width: 10px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.level{
+    background-color: blue;
+    height: 10px;
+    width: 10px;
+    margin: 1px;
+
 }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature Dashboard</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <h1>Temperature Dashboard</h1>
+
+    <button onclick="convertCtoF()">Celsius → Fahrenheit</button>
+    <button onclick="convertFtoC()">Fahrenheit → Celsius</button>
+    <button onclick="generateTable()">Generate Table</button>
+
+    <p id="result"></p>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Celsius</th>
+                <th>Fahrenheit</th>
+            </tr>
+        </thead>
+        <tbody id="temps"></tbody>
+    </table>
+
+    <script src="scripts/finalreport.js"></script>
+</body>
+</html>
